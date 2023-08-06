@@ -43,7 +43,7 @@
 	.column {
   	flex: 1;
   	padding: 10px;
-  	max-width: 50%; /* Assegura que as colunas não excedam 50% da largura da tela */
+  	max-width: 50%;
   	box-sizing: border-box;
 	}
 
@@ -105,7 +105,7 @@
   </div>
   <div class="video-column">
     <video controls>
-      <source src="caminho/do/video2.mp4" type="video/mp4">
+      <source src="igualdade-de-genero.mp4" type="video/mp4">
     </video>
   </div>
     <section id="causas">
