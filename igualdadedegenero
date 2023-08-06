@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igualdade de Gênero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+	}
+        .container {
+  	display: flex;
+  	justify-content: center;
+	}
+
+	.column {
+  	flex: 1;
+  	padding: 10px;
+  	max-width: 50%; /* Assegura que as colunas não excedam 50% da largura da tela */
+  	box-sizing: border-box;
+	}
+
+	img {
+  	max-width: 100%;
+  	height: auto;
+  	display: block;
+  	margin: 0 auto;
+	}
+
+        {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100vh;
+  	margin: 0;
+  	background-color: #f0f0f0;
+	}
+
+	.video-column {
+  	width: 50%;
+  	padding: 10px;
+  	box-sizing: border-box;
+	}
+
+	video {
+  	width: 100%;
+  	display: block;
+	}
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Igualdade de Gênero</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#causas">Causas</a>
+        <a href="#impacto">Impacto</a>
+        <a href="#acoes">Ações</a>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>A igualdade de gênero, é a ideia de que pessoas que se identificam com qualquer um dos gêneros devem ter direitos e oportunidades iguais na sociedade. Lembrando que direitos são normas e leis, que estão previstas na Constituição, mas que nem sempre têm validade prática igual para todos.1.</p>
+    </section>
+    <div class="video-column">
+    <video controls>
+      <source src="<iframe width="560" height="315" src="https://www.youtube.com/embed/ZCGLC-vziRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>" type="video/mp4">
+    </video>
+  </div>
+  <div class="video-column">
+    <video controls>
+      <source src="caminho/do/video2.mp4" type="video/mp4">
+    </video>
+  </div>
+    <section id="causas">
+        <h2>Causas</h2>
+        <p>Essa diferença está enraizada em nossa sociedade sob a forma do machismo, muito em função de uma cultura patriarcal ultrapassada. Isso porque a estrutura familiar e as relações sociais antigas colocavam o gênero masculino no lugar mais elevado da pirâmide social.</p>
+    </section>
+    <div class="container">
+    <div class="column">
+      <img src="https://img.freepik.com/fotos-premium/conceito-de-diferenca-salarial-de-genero-figuras-de-homem-e-mulher-em-cima-da-pilha-de-moedas_136875-3832.jpg?w=740" alt="Imagem 1">
+    </div>
+    <div class="column">
+      <img src="https://img.freepik.com/fotos-gratis/mulher-de-desenho-animado-em-pe-no-lado-inferior-da-gangorra_23-2148403580.jpg?w=740&t=st=1691278617~exp=1691279217~hmac=28dea489b70606dd1bc94491968173b7d7941e330247464695548f2e94bc6de9" alt="Imagem 2">
+    </div>
+  </div>
+    <section id="impacto">
+        <h2>Impacto</h2>
+        <p>Um mundo mais desigual, e que torna a vida das mulheres e pessoas trans mais difíceis. Seja pelo condicionamento à salários mais baixos, menos reconhecimento, repressão social, seja por correrem mais riscos de serem</p>
+    </section>
+     <div class="container">
+    <div class="column">
+      <img src="https://img.freepik.com/vetores-gratis/ilustracao-em-vetor-conceito-abstrato-de-discriminacao-no-local-de-trabalho-discriminacao-contra-funcionario-candidato-a-emprego-oportunidades-iguais-de-emprego-assedio-sexual-preconceito-metafora-abstrata_335657-4189.jpg?w=740&t=st=1691278823~exp=1691279423~hmac=b13377ac077693bf1b5ae6daf54fffe8d787b5af5b8d6a1b8d44ed6f61d2f225" alt="Imagem 1">
+    </div>
+    <div class="column">
+      <img src="https://img.freepik.com/vetores-gratis/ilustracao-em-vetor-conceito-abstrato-de-discriminacao-de-genero-sexismo-papeis-e-estereotipos-de-genero-desigualdade-no-local-de-trabalho-habilidades-e-capacidades-direitos-das-mulheres-metafora-abstrata-do-mercado-de-trabalho_335657-4206.jpg?size=626&ext=jpg&ga=GA1.2.2057177289.1691145810&semt=ais" alt="Imagem 2">
+    </div>
+  </div>
+    <section id="acoes">
+        <h2>Ações</h2>
+        <p> -Aumentar a participação das mulheres no mercado de trabalho e a independência económica tanto dos homens como das mulheres.
+        
+-Reduzir as disparidades de género em termos salariais, de rendimentos e de pensões e combater, assim, a pobreza entre as mulheres.
+
+-Promover a igualdade entre homens e mulheres no processo de tomada de decisões.
+
+-Combater a violência com base no género e proteger e apoiar as vítimas
+promover a igualdade de género e os direitos das mulheres em todo o mundo</p>
+    </section>
+     <div class="container">
+    <div class="column">
+      <img src="https://img.freepik.com/vetores-gratis/igualdade-de-genero-ilustrada_23-2148589837.jpg?w=740&t=st=1691278680~exp=1691279280~hmac=e5f2b18e2652b40a60c46b7f1ea60aab86dbebafb37315d0d3b48026710d8d5f" alt="Imagem 1">
+    </div>
+    <div class="column">
+      <img src="https://img.freepik.com/vetores-gratis/quebrar-ilustracao-de-normas-de-genero_23-2148549601.jpg?w=740&t=st=1691278723~exp=1691279323~hmac=7a56beace050332b6f78ffc1749188f9d648ed5350e457ffa4bf9e5060132cdf" alt="Imagem 2">
+    </div>
+  </div>
+    <footer>
+        <p>© 2023 Igualdade de Gênero</p>
+    </footer>
+</body>
+</html>
